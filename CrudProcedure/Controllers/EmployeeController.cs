@@ -59,6 +59,7 @@ namespace CRUDwithProcedure.Controllers
         [HttpPost]
         public ActionResult Create(tblEmployeeProcedure collection)
         {
+            //Creating
             if (!ModelState.IsValid)
             {
                 return View();
